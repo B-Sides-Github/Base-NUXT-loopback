@@ -1,0 +1,7 @@
+app:
+  build: .
+  command: node index.js # Added
+  volumes:
+    - .:/app
+  ports:
+    - '3001:3001'
